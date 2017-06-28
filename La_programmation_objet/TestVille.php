@@ -8,7 +8,5 @@
 
 require 'Ville.php';
 
-$maVille = new Ville();
-$maVille->setDepartement('Lagune');
-$maVille->setNom('Abidjan');
+$maVille = new Ville('Abidjan', 'Lagune');
 $maVille->affiche();
