@@ -6,7 +6,9 @@
  * and open the template in the editor.
  */
 
+require 'Ville.php';
+
 $maVille = new Ville();
-$maVille->setNom("Abidjan");
-$maVille->setDepartement("Lagune");
+$maVille->setDepartement('Lagune');
+$maVille->setNom('Abidjan');
 $maVille->affiche();

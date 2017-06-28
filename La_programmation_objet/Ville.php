@@ -16,9 +16,9 @@ class Ville {
     
     private $nom;
     private $departement;
-    
+
     public function affiche (){
-        echo "la ville ".$nom." est dans le département ".$departement;
+        echo "la ville ".$this->nom." est dans le département ".$this->departement;
     }
     
     function getNom() {
